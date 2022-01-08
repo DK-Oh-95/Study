@@ -1,10 +1,6 @@
 # [관계형 데이터 모델링]
 
-
-
 ## ERD의 구성요소 (Entity-relationship data model)
-
-
 
 #### 1. Entity
 
