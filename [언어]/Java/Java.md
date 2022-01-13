@@ -117,7 +117,7 @@
 - 소스코드(사람이 이해할 수 있는 코드)를 byte코드(컴퓨터가 이해할 수 있는 코드)로 전환
 - Javac가 컴파일 해준다(컴파일러)
   - .class 파일 생성
-![img.png](./img/img.png_2)
+![img.png](./img/img_1.png)
 
 
 #### 형변환(Type casting)
