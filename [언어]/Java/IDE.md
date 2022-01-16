@@ -75,3 +75,27 @@
 
 # [IntelliJ]
 
+
+
+#### 단축키
+
+- "Getter Setter"
+  - `Alt + Insert`
+
+- "Option Enter"
+  - `Alt + Enter`
+
+- "Navigate" - class 정의된 곳 확인
+  - `ctrl + B`
+
+- "Navigate" - 뒤로 가기
+  - `ctrl + Shift + backspace`
+
+- "Rename" - 이름 여러 개 동시에 바꾸기
+  - `Shift + F6`
+- 함수 실행
+  - 현재 터미널 함수 그대로 실행
+    - `ctrl + F5`
+  - 지금 선택한 함수 실행
+    - `ctrl + Shift + F10`
+  - 

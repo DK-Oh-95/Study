@@ -54,6 +54,14 @@
 - Dependancies
   - 라이브러리간 의존 관계 
 
+- 파일 구조
+  - src/main/java/프로젝트파일명
+    - 프로젝트 main 소스코드
+  - src/main/resources/static
+    - 프로젝트 welcompage (index.html)
+
+
+
 
 
 #### Java 특징

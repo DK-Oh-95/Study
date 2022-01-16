@@ -1,6 +1,10 @@
 # [Spring]
 
+
+
 ## Back-End (Servlet & JSP)
+
+
 
 #### APACHE
 
@@ -13,6 +17,8 @@
 - 클라이언트에서 요청하는 HTTP 요청을 처리하는 웹서버
   - Static type(HTML, CSS, 이미지 등)의 데이터만을 처리하기 때문에 톰캣 등장
 
+
+
 #### Tomcat(톰캣)
 
 - WAS(Web application server) (컨테이너, 웹 컨테이너, 서블릿 컨테이너로도 불림)
@@ -21,6 +27,8 @@
 - JSP와 Servlet을 구동하기 위한 서블릭 컨테이너 역할
   - 컨테이너 : 동적 데이터를 가공하여 정적 파일로 만들어주는 모듈
 - 아파치서버와는 다르게 DB연결, 다른 응용프로그램과 상호 작용 등 동적인 기능 사용 가능
+
+
 
 #### Servlet
 
@@ -50,5 +58,14 @@
   4. RDBMS
      - Application Server의 Persistence Logic과 상호작용
      - JDBC 사용
+
+---
+
+
+
+# [Spring Boot]
+
+
+
 
 
