@@ -81,16 +81,12 @@
 
 - "Getter Setter"
   - `Alt + Insert`
-
-- "Option Enter"
+- "Option Enter" - static import 지정 가능
   - `Alt + Enter`
-
 - "Navigate" - class 정의된 곳 확인
   - `ctrl + B`
-
 - "Navigate" - 뒤로 가기
   - `ctrl + Shift + backspace`
-
 - "Rename" - 이름 여러 개 동시에 바꾸기
   - `Shift + F6`
 - 함수 실행
@@ -98,4 +94,12 @@
     - `ctrl + F5`
   - 지금 선택한 함수 실행
     - `ctrl + Shift + F10`
-  - 
+- 변수 지정 - 현재 작성한 값 바로 할당
+  - `ctrl + Alt + V`
+- "Refactor"
+  - `ctrl + Alt + Shift + T`
+  - "Extract method" - 자주 쓰는 함수 외부로 지정
+    - `ctrl + Alt + M`
+- "Test" - test case 생성
+  - `ctrl + Shift + T`
+  -  
