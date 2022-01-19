@@ -40,7 +40,6 @@
   - `@WebServlet("/")`
     - annotation : url상에서의 mapping
     - 해당 서블릿을 웹에서 호출할 수 있는 키워드
-
 - Web Architecture
   1. Web Server
      - 요청(request)을 받고
@@ -59,6 +58,36 @@
      - Application Server의 Persistence Logic과 상호작용
      - JDBC 사용
 
+
+
+#### IoC (Inversion of Control) & DI (Dependency Injection)
+
+
+
+- "IoC, 제어의 역전"
+  - 객체(<u>Bean</u>) 생성과 객체간 의존관계의 제어권이 개발자가 아닌 IoC Container에서 관리
+  - 객체를 생성하면 스프링에서 스캔하여 메모리에 주입한다.
+
+
+
+- "DI, 의존성 주입"
+
+  - 각 객체간의 의존성을 컨테이너가 자동으로 연결
+  - 스캔한 객체를 모든 클래스의 메서드에서 공유해서 사용 가능
+
+  1. **Setter Injection**
+     - 인자(argument)가 없는 생성자를 사용하여 객체 생성 후 setter 메서드를 사용해 의존성 주입, <property/> element 사용
+  2. **Constructor Injection**
+     - 인자를 가지고 있는 생성자를 사용하여 의존성 주입, <constuctor-arg/> element 사용
+
+
+
+
+
+
+
+
+
 ---
 
 
@@ -66,6 +95,48 @@
 # [Spring Boot]
 
 
+
+#### 개발환경 설정
+
+- 필요 사항
+
+  1. JDK 설치
+
+     - 자바 코드의 번역과 실행을 담당하는 실행 도구
+     - `adoptopenjdk`설치 (가장 많이 쓰이는 8버전)
+
+  2. IDE 설치
+
+     - 개발 생산성 향상
+
+  3. Springboot 프로젝트
+
+     - spring initializer 사이트에서 생성
+     - **"Artifact"** : 생성할 프로젝트 명
+     - **"Dependencies"** : 스프링부트 프로젝트에 필요한 여러 도구들 추가
+       - <u>Spring Web</u> : 웹 프로젝트 도구
+       - <u>H2 Database</u>
+       - <u>Mustache</u> : 화면 생성 도구(view templates)
+       - <u>Spring Data JPA</u> : DB 편리성 향상 도구
+
+     
+
+	#### View Templates & MVC pattern
+
+- **"View Templates"**
+  - 웹페이지의 변수를 활용
+  - 화면 담당 - 웹페이지를 하나의 틀로 만들고 각 요소에 변수를 입력하도록 설계
+  - **"Controller"**
+    - logic - 처리과정 담당
+  - **"Model"**
+    - data - 데이터 담당
+
+- **"MVC pattern"**
+  - 분야별 담당자 분리 
+  - Model / View / Controller 각 담당자 분리
+  - View
+    - `src/main/resources/templates` 위치에 생성
+  - 
 
 
 
