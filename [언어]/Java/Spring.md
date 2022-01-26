@@ -98,17 +98,17 @@
 
 #### 개발환경 설정
 
+
+
 - 필요 사항
 
   1. JDK 설치
 
      - 자바 코드의 번역과 실행을 담당하는 실행 도구
      - `adoptopenjdk`설치 (가장 많이 쓰이는 8버전)
-
   2. IDE 설치
-
+  
      - 개발 생산성 향상
-
   3. Springboot 프로젝트
 
      - spring initializer 사이트에서 생성
@@ -118,10 +118,13 @@
        - <u>H2 Database</u>
        - <u>Mustache</u> : 화면 생성 도구(view templates)
        - <u>Spring Data JPA</u> : DB 편리성 향상 도구
+  
 
-     
 
-	#### View Templates & MVC pattern
+
+#### View Templates & MVC pattern
+
+
 
 - **"View Templates"**
   - 웹페이지의 변수를 활용
@@ -136,7 +139,10 @@
   - Model / View / Controller 각 담당자 분리
   - View
     - `src/main/resources/templates` 위치에 생성
-  - 
+
+
+
+
 
 
 
