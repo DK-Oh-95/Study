@@ -1,7 +1,10 @@
 # [Git]
 
 
+
 ## 1. 버전 관리
+
+
 
 - 버전 관리 시스템 (VCS, Version Control System)
   - 파일 변화를 시간에 따라 기록, 특정 시점 버전 관리
@@ -23,7 +26,10 @@
     - ![img_2.png](img_2.png)
 
 
+
 ## 2. Git 기초
+
+
 
 - 기존 디렉토리 Git 저장소로 만들기
   - 사용할 프로젝트 디렉토리로 이동
@@ -43,13 +49,16 @@
   - 전체를 복사하지 않고 변경내역(delta)을 저장하여 커밋을 가볍게 유지
 
 
+
 ## 3. Git Branch
+
+
 
 - Git의 데이터 저장 방식
   - Change Set이나 변경사항으로 기록하지 않고 스냅샷으로 기록
   - 커밋하면 Git은 현 Staging Area에 있는 데이터의 스냅샷에 대한 포인터, 저자나 커밋 메시지 같은 메타데이터, 이전 커밋에 대한 포인터 등을 포함하는 커밋 객체를 저장
   - 파일 3개를 커밋하면 각 파일에 대한 Blob 세개, 파일과 디렉토리 구조가 담긴 트리 개체 하나, 메타데이터와 루트 트리를 가리키는 포인터가 담긴 커밋 개체 하나 생성
-![img_3.png](img_3.png)
+  ![img_3.png](img_3.png)
 
 - 브랜치는 커밋 사이를 가볍게 이동할 수 있는 포인터 같은 것
 ![img_4.png](img_4.png)
@@ -59,27 +68,31 @@
   - HEAD라는 특수한 포인터로 현재 작업 중인 로컬 브랜치 가리킴
   - 현재 작업 브랜치 확인
     - `git log --oneline --decorate`
-![img_5.png](img_5.png)
+    ![img_5.png](img_5.png)
 
 - 브랜치 이동
   - `git checkour testing`
-![img_6.png](img_6.png)
+  ![img_6.png](img_6.png)
   - 현 상태에서 새로운 커밋
     - `git commit -a -m 'make change'`
-![img_7.png](img_7.png)
+    ![img_7.png](img_7.png)
   - master 브랜치로 돌아와서 새로운 커밋
     - `git checkout master`
     - `git commit -a -m 'make other change'`
-![img_8.png](img_8.png)
+    ![img_8.png](img_8.png)
   - 히스토리 확인
     - `git log --oneline --decorate --graph --all`
-![img_9.png](img_9.png)
+    ![img_9.png](img_9.png)
 
 
 
 
 
+#### git 용어
 
+touch .xxx 	>>>	xxx라는 파일 생성
+
+commit -m "xxx"  >>>	xxx라는 문구 추가
 
 
 
